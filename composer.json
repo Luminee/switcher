@@ -1,0 +1,28 @@
+{
+    "name": "luminee/switcher",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luminee\\Switcher\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LuminEe",
+            "email": "1123462990@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luminee\\Switcher\\SwitcherServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.5.*"
+    }
+}
